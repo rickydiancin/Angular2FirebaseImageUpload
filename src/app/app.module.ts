@@ -15,12 +15,16 @@ import { ListingComponent } from './components/listing/listing.component';
 import { AddListingComponent } from './components/add-listing/add-listing.component';
 import { EditListingComponent } from './components/edit-listing/edit-listing.component';
 
+/*
+Change credentials here...
+Databse file is inside assests folder: data.json
+*/
 export const firebaseConfig = {
-  apiKey: 'AIzaSyBzMDTMDWrBZbUkNC-uSNmQIl5rCbNoqeg',
-  authDomain: 'proplistings-1eed8.firebaseapp.com',
-  databaseURL: 'https://proplistings-1eed8.firebaseio.com',
-  storageBucket: 'proplistings-1eed8.appspot.com',
-  messagingSenderId: '605642180089'
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  storageBucket: '',
+  messagingSenderId: ''
 };
 
 const firebaseAuthConfig = {
